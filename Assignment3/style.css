@@ -1,0 +1,33 @@
+html{
+    background-color: lightgray;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkred;
+}
+#player1{
+    background-color: darkred;
+    color: lightgrey;
+}
+#player2{
+    background-color: darkred;
+    color: lightgrey;
+}
+#startBtn{
+    background-color: darkred;
+    color: lightgrey;
+}
+label{
+    color: darkred;
+    display: inline;
+    font-weight: bold;
+}
+form{
+    width: 300px;
+    border: 50px darkred;
+    padding: 50px;
+}
+#winner{
+    font-weight: italic;
+}

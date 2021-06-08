@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+    <head>
+        <meta charset = "utf-8">
+        <meta name = viewport content = "width=device-width, initial-scale=1.0">
+        <title>Assignment 3</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <script src="game.js"></script>
+    </head>
+    <body>
+        <div class = "name_input">
+                <h1>TENNIS MATCH</h1>
+                <form>
+                    <label for = "player1">Player 1: </label>
+                    <input type="text" required="required" id="player1" name="player1" placeholder="Enter full name">
+                    <br><br><br>
+
+                    <label for = "player2">Player 2: </label>
+                    <input type ="text" required="required" id="player2" name="player2" placeholder="Enter full name">
+                    <br><br><br>
+
+                    <div class = "button"><input type = "button" value = "Start Game" id ="startBtn" onclick="startGame(document.getElementById('player1').value, document.getElementById('player2').value)"></div></form>
+                    <br><br><br>
+        </div>
+        <div class = "match_results">
+            <label for = "player1sets">Final Score:</label><br><span id = "player1sets"></span><br>
+            <span id = "player2sets"></span><br><br>
+            <label for = "winner">Winner:</label><br><span id = "winner"></span><br><br>
+        </div>
+    </body>
+</html>
